@@ -1,0 +1,13 @@
+--- MACRO NAME TABLE (MNT) ---
+Index	Name	MDT_Ptr
+1 | INCR | 1
+
+--- MACRO DEFINITION TABLE (MDT) ---
+Index	Instruction
+1 | &LAB INCR &ARG1, &ARG2
+
+2 | &LAB A 1, &ARG1
+3 | MEND
+
+--- ARGUMENT LIST ARRAY (ALA) ---
+Macro : INCR0 : &LAB1 : &ARG1,2 : &ARG2
