@@ -1,8 +1,5 @@
 import sys
 
-from contributed.sumopy.examples.scripts.sumopy_sim import resultfilepath
-from randomTrips import createTrips
-
 
 def first(lhs):
     result = set()
